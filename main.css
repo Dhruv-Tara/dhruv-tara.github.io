@@ -1,0 +1,44 @@
+body {
+  background: url('resources/PC-Dark.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+  
+button {
+    color: rebeccapurple;
+    background: gray;
+    align-self: auto;
+}
+
+
+header {
+  text-align: center;
+  color: azure;
+}
+
+@media (max-width: 767px) {
+  body {
+    background: url('resources/Mobole-Dark.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+
+.Profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-items: center;
+  display: block;
+  margin: auto;
+}
+
+
+.box {
+  height: 400px;
+  width: 500px;
+  background-color: aqua;
+  display: block;
+  align-items: center;
+  margin: auto;
+}
